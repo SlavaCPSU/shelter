@@ -49,6 +49,7 @@ header {
     list-style-type: none;
     /* border-bottom: #F1CDB3 1px solid; */
 }
+
 .accordion__content a:hover,
 .navMenu a:hover {
     color: white;
@@ -115,8 +116,12 @@ header {
     display: flex;
     flex-direction: column;
     max-width: 460px;
+    justify-content: space-between;
+    border: red 1px solid;
+    height: 322px;
+    margin: auto;
 
-    /* border: red 1px solid; */
+
 }
 
 .contentPuppy h2 {
@@ -127,7 +132,7 @@ header {
     font-size: 44px;
     color: #FFFFFF;
     line-height: 130%;
-    margin-top: 163px;
+    /* margin-top: 163px; */
     /* border: red solid 1px; */
     max-width: 310px;
 }
@@ -139,27 +144,17 @@ header {
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    margin-top: 42px;
+    /* margin-top: 42px; */
     line-height: 160%;
     max-width: 460px;
     /* border: red solid 1px; */
 
 }
 
-.start-screen-puppy {
-    max-width: 698px;
-    max-height: ;
-}
-
-.start-screen-puppy img {
-    width: 100%;
-    margin: auto;
-}
-
 .btn {
     width: 207px;
     height: 52px;
-    margin-top: 42px;
+    /* margin-top: 42px; */
 
     bottom: 0px;
 
@@ -191,6 +186,20 @@ header {
     scale: 1.05;
 }
 
+
+
+.start-screen-puppy {
+    max-width: 698px;
+
+}
+
+.start-screen-puppy img {
+    width: 100%;
+    margin: auto;
+}
+
+
+
 @media only screen and (max-width : 768px) {
 
     .startScreen {
@@ -215,8 +224,8 @@ header {
 
     header {
 
-       max-width: 708px;
-       width: 95%;
+        max-width: 708px;
+        width: 95%;
         /* border: 1px wheat solid; */
         margin-left: auto;
         margin-right: auto;
@@ -229,7 +238,7 @@ header {
         /* flex-wrap: wrap;
         flex-basis: auto;
         justify-content: space-around; */
-        
+
     }
 
     .contentPuppy {
@@ -357,7 +366,7 @@ header {
         /* border: 1px solid red; */
     }
 
-    
+
 }
 
 
