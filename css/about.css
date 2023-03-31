@@ -104,6 +104,7 @@
     .about .aboutPetsContent {
         height: 868px;
         max-width: 437px;
+        
         margin: auto;
         margin-top: 80px;
         flex-direction: column;
@@ -125,22 +126,28 @@
 
     .about .aboutContent {
         max-height: 380px;
+        margin: auto;
+        width: 95%;
         /* border: 1px solid red; */
     }
 
     .aboutContent h3 {
         font-size: 35px;
+       
+
 
     }
 
     .aboutContent .aboutContentP1 {
         margin-top: 25px;
         font-size: 15px;
+         
     }
 
     .aboutContent .aboutContentP2 {
         margin-top: 25px;
         font-size: 15px;
+        
     }
 
 

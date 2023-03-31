@@ -4,7 +4,7 @@
 
 @media only screen and (max-width : 730px) {
   .accordion {
-width: 100%;
+    width: 95%;
     display: flex;
     justify-content: end;
     position: relative;
@@ -16,14 +16,15 @@ width: 100%;
     background: white;
 
     /* border: 1px solid blue; */
-   
+
   }
 
-  .accordion__item{
+  .accordion__item {
     width: 100%;
 
   }
-  .accordion>.accordion__item_show{
+
+  .accordion>.accordion__item_show {
     max-width: 320px;
   }
 
@@ -41,7 +42,7 @@ width: 100%;
 
     /* border: 1px solid red; */
 
-    
+
   }
 
   .accordion__item_show>.accordion__body {
@@ -157,7 +158,7 @@ width: 100%;
     /* background: #292929; */
   }
 
-  .headerPets header .accordion__header::after{
+  .headerPets header .accordion__header::after {
     background: url('../img/Burger-1.svg') right center;
 
   }
@@ -216,6 +217,7 @@ width: 100%;
   .headerPets header .accordion__content {
     background: white;
   }
+
   .accordion__content {
     display: flex;
     flex-direction: column;

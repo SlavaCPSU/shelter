@@ -106,7 +106,10 @@
 .donationContentDog p {
 
     /* border: 1px solid blue; */
-    width: 380px;
+    max-width: 380px;
+    margin: auto;
+    width: 95%;
+    text-align: justify;
     height: 72px;
     left: 0px;
     top: 210px;

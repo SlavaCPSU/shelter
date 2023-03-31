@@ -190,12 +190,14 @@ header {
 
 .start-screen-puppy {
     max-width: 698px;
+    display: flex;
 
 }
 
 .start-screen-puppy img {
     width: 100%;
     margin: auto;
+    margin-bottom: 0px;
 }
 
 
@@ -205,6 +207,7 @@ header {
     .startScreen {
 
         max-height: 1165px;
+        /* height: 100%; */
 
     }
 
@@ -225,7 +228,7 @@ header {
     header {
 
         max-width: 708px;
-        width: 95%;
+        /* width: 95%; */
         /* border: 1px wheat solid; */
         margin-left: auto;
         margin-right: auto;
@@ -269,7 +272,7 @@ header {
     .start-screen-puppy {
 
         max-width: 569px;
-        height: 593px;
+        max-height: 593px;
         margin-top: 100px;
         /* border: 1px blue solid; */
 
@@ -295,7 +298,6 @@ header {
 
 
     .start-screen-puppy img {
-
         margin-left: auto;
         /* border: 1px solid red; */
     }
@@ -312,12 +314,18 @@ header {
 @media only screen and (max-width : 320px) {
 
     .startScreen {
-        max-height: 823px;
-        width: 320px;
+        height: 823px;
+        /* height: 100%; */
+        max-width: 320px;
+    
+    }
+    .StartScreen-content {
 
+        justify-content: space-between;
+        height: 100%;
+        
 
     }
-
     .navMenu {
         display: none;
     }
@@ -327,37 +335,28 @@ header {
     }
 
     .contentPuppy {
-
         max-width: 300px;
         max-height: 296px;
-
     }
 
     .contentPuppy h2 {
         /* display: flex; */
         text-align: center;
         font-size: 25px;
-
         margin-top: 0px;
-
-
     }
 
     .contentPuppy p {
         /* display: flex; */
-
-
         text-align: center;
-
     }
 
     .start-screen-puppy {
-
         max-width: 260px;
         height: 272px;
-        margin-top: 105px;
+        /* margin-top: 40%; */
+        
         /* border: 1px blue solid; */
-
     }
 
     .start-screen-puppy img {
