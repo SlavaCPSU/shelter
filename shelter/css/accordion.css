@@ -1,0 +1,257 @@
+.accordion {
+  display: none;
+}
+
+@media only screen and (max-width : 730px) {
+  .accordion {
+width: 100%;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    /* width: 320px; */
+    /* border: 1px red solid; */
+  }
+
+  .headerPets header .accordion>.accordion__item_show {
+    background: white;
+
+    /* border: 1px solid blue; */
+   
+  }
+
+  .accordion__item{
+    width: 100%;
+
+  }
+  .accordion>.accordion__item_show{
+    max-width: 320px;
+  }
+
+  .accordion>.accordion__item_show {
+    background: #292929;
+
+    /* border: 1px solid blue; */
+    opacity: 0.9;
+
+  }
+
+
+  .headerPets header .accordion__item_show>.accordion__body {
+    background: white;
+
+    /* border: 1px solid red; */
+
+    
+  }
+
+  .accordion__item_show>.accordion__body {
+    background: #292929;
+
+    /* border: 1px solid red; */
+
+    opacity: 0.9;
+
+
+  }
+
+  .accordion__content {
+    display: flex;
+    justify-content: center;
+
+    /* width: 320px; */
+
+    margin-top: 193px;
+    margin-bottom: 248px;
+    height: 327px;
+
+  }
+
+
+
+  .accordion__content a {
+    /* paragraph-mobile-menu */
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 160%;
+    /* or 51px */
+    display: inline-block;
+    width: max-content;
+
+    /* color-light-s */
+
+    /* color: #FAFAFA; */
+    padding: 0px;
+    margin: auto;
+
+
+  }
+
+  .accordion__content a:hover {
+    color: white;
+
+  }
+
+  .accordion::before,
+  .accordion::after {
+    box-sizing: border-box;
+    display: flex;
+    /* border: 1px red solid; */
+  }
+
+  .accordion__body {
+    /* font-family: Jost;
+    font-size: 20px;
+    line-height: 30px; */
+  }
+
+
+  .accord__podmenu {
+    /* background: url('Home/ividersLine.svg') no-repeat center left; */
+    /* font-size: 17px;
+    line-height: 26px; */
+    /* border: 1px red solid; */
+  }
+
+  .accordion>.accordion__item_show {
+    position: fixed;
+
+  }
+
+
+  .accordion__header {
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0.5rem 1rem; */
+    /* color: #FAF6F2; */
+    /* border-top: 1px solid rgb(0 0 0 / 12.5%); */
+    cursor: pointer;
+    transition: background-color 0.2s ease-out;
+  }
+
+  /* .accordion__header:hover {
+    background: #292929;
+  } */
+
+  .accordion__content .accordion__header {
+    /* padding-left: 2rem; */
+  }
+
+  .accordion__content .accordion__content .accordion__header {
+    /* padding-left: 3rem; */
+  }
+
+  .headerPets header .accordion>.accordion__item>.accordion__header {
+    background-color: white;
+  }
+
+  .accordion>.accordion__item>.accordion__header {
+    /* font-weight: bold; */
+    background: #292929;
+  }
+
+  .accordion>.accordion__item>.accordion__header:hover {
+    /* background: #292929; */
+  }
+
+  .headerPets header .accordion__header::after{
+    background: url('../img/Burger-1.svg') right center;
+
+  }
+
+  .accordion__header::after {
+
+    flex-shrink: 0;
+    width: 30px;
+    height: 22px;
+    /* margin-left: auto; */
+    background: url('../img/Burger.svg') right center;
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    content: "";
+    transition: transform 0.2s ease-out;
+  }
+
+  /* .accordion__header1::after {
+    flex-shrink: 0;
+    width: 30px;
+    height: 20px;
+    margin-left: auto;
+    background-image: url('../img/Burger.svg') right;
+  
+    background-repeat: no-repeat ;
+    background-size: 100%;
+    content: "";
+    transition: transform 0.2s ease-out;
+  } */
+  .accordion__header::after {
+
+    margin-left: auto;
+  }
+
+  .accordion__item_show>.accordion__header::after,
+  .accordion__item_slidedown>.accordion__header::after {
+    transform: rotate(-90deg);
+
+    /* margin-left: auto; */
+
+
+  }
+
+  .accordion__item_show .logo {
+    display: none;
+  }
+
+  .accordion__item_show>.accordion__header1::after,
+  .accordion__item_slidedown>.accordion__header1::after {
+    /* background-image: url('../img/Burger.svg'); */
+    /* width: 30px;
+    height: 20px; */
+  }
+
+  .headerPets header .accordion__content {
+    background: white;
+  }
+  .accordion__content {
+    display: flex;
+    flex-direction: column;
+    background: #292929;
+    opacity: 0.9;
+    /* border: 1px solid red; */
+
+  }
+
+  .accordion__content>a {
+    /* position: relative; */
+
+
+    /* padding: 0.5rem 1rem 0.5rem 2rem; */
+    color: #FAF6F2;
+    text-decoration: none;
+    /* background: #292929; */
+    /* border-top: 1px solid rgb(0 0 0 / 12.5%); */
+    /* border: 1px solid blue; */
+
+  }
+
+  /* .accordion__content .accordion__content>a {
+    padding-left: 3rem;
+  }
+
+  .accordion__content .accordion__content .accordion__content>a {
+    padding-left: 4rem;
+  } */
+
+  .accordion__body .accordion__content>a:hover {
+    /* background: #292929; */
+  }
+
+  .accordion__item:not(.accordion__item_show)>.accordion__body {
+    display: none;
+  }
+
+}

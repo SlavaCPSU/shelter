@@ -1,0 +1,188 @@
+.about {
+    flex-basis: 1280px;
+    max-height: 588px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* border: 5px red solid; */
+}
+
+.aboutPetsContent {
+    display: flex;
+    justify-content: center;
+    flex-basis: 1200px;
+    max-height: 408px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.aboutPets {
+  
+    display: flex;
+    max-width: 300px;
+    max-height: 408px;
+ 
+    margin-right: calc(120/1280*100%);
+    
+
+}
+
+.aboutPets img {
+    width: 100%;
+    /* border: 1px blue solid; */
+}
+
+.aboutContent {
+   
+    flex-basis: 430px;
+    max-height: 380px;
+   
+    margin-top: calc(14/908*100%);
+    /* border: 1px blue solid; */
+    flex-direction: column;
+
+}
+
+.aboutContent h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+
+    display: flex;
+    align-items: center;
+    
+    letter-spacing: 0.06em;
+
+    /* color-dark-l */
+
+    color: #545454;
+
+}
+
+.aboutContentP1 {
+    /* paragraph-l */
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    /* or 24px */
+
+
+    /* color-dark-xl */
+
+    color: #4C4C4C;
+    margin-top: calc(25/380*100%);
+}
+
+.aboutContentP2 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    /* or 24px */
+    color: #4C4C4C;
+    margin-top: calc(25/380*100%);
+    
+}
+
+
+@media only screen and (max-width : 768px) {
+
+    .about {
+        max-height: 1048px;
+    }
+
+    .about .aboutPetsContent {
+        height: 868px;
+        max-width: 437px;
+        margin: auto;
+        margin-top: 80px;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-between;
+
+    }
+
+    .about .aboutPets {
+        order: 1;
+        margin: auto;
+        margin-bottom: 0px;
+        max-height: 408px;
+        max-width: 300px;
+        margin-top: 80px;
+
+
+    }
+
+    .about .aboutContent {
+        max-height: 380px;
+        /* border: 1px solid red; */
+    }
+
+    .aboutContent h3 {
+        font-size: 35px;
+
+    }
+
+    .aboutContent .aboutContentP1 {
+        margin-top: 25px;
+        font-size: 15px;
+    }
+
+    .aboutContent .aboutContentP2 {
+        margin-top: 25px;
+        font-size: 15px;
+    }
+
+
+
+}
+
+@media only screen and (max-width : 320px) {
+    .about {
+        max-height: 974px;
+
+
+    }
+
+    .about .aboutPetsContent {
+        margin-top: 42px;
+        height: 890px;
+    }
+
+    .about .aboutPets {
+        max-height: 353.6000061035156px;
+        max-width: 260px;
+
+    }
+
+    .aboutPets img {}
+
+    .about .aboutContent {
+        max-height: 494px;
+
+    }
+
+    .about .aboutContent h3 {
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+
+    .aboutContentP1 {}
+
+    .about .aboutContentP2 {
+        margin-top: 22px;
+    }
+
+
+
+}
