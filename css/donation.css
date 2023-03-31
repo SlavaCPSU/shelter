@@ -57,7 +57,7 @@
 }
 
 .donationContentDog h5 {
-
+    margin-top: 20px;
 
     font-family: 'Georgia';
     font-style: normal;
@@ -69,7 +69,9 @@
     /* border: 1px red solid; */
 }
 
+
 .donationContentDogCredit-card {
+    margin-top: 20px;
     display: flex;
     max-width: 349px;
     height: 43px;
